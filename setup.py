@@ -1,8 +1,9 @@
 from setuptools import setup, find_packages
+from window.viewport import viewport
 
 setup(
     name='window-viewport',
-    version=window-viewport.__version__,
+    version='0.0.1',
     description='Just another window to viewport coordinates translator',
     author='Jeff Anderson',
     author_email='jeffa@cpan.org',
