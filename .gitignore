@@ -1,0 +1,4 @@
+dist/
+window/__pycache__/
+*.egg-info/
+build/
