@@ -6,7 +6,7 @@ from window.viewport import viewport
 class TestLoad(unittest.TestCase):
 
     def test_defaults(self):
-        w2v = viewport( Wb = 0, Wt = 1, Wl = 0, Wr = 1, Vb = 9, Vt = 0, Vl = 0, Vr = 9 )
+        w2v = viewport( world_bounds=(0, 1, 0, 1), view_bounds=(9, 0, 0, 9))
         self.assertEqual( w2v.Dx(.5), 4.5, 'correct Dx()' )
         self.assertEqual( int(w2v.Dy(.6)), 3, 'correct Dy()' )
 
