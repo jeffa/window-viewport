@@ -1,16 +1,23 @@
 window-viewport
 =====================
-Just another window to viewport coordinates translator.  [![pypi package](https://badge.fury.io/py/window-viewport.svg)](https://pypi.python.org/pypi/window-viewport) [![Build Status](https://api.travis-ci.org/jeffa/window-viewport-python.svg?branch=master)](https://travis-ci.org/jeffa/window-viewport-python)
+Just another window to viewport coordinates translator.  [![pypi package](https://badge.fury.io/py/window-viewport.svg)](https://pypi.python.org/pypi/window-viewport)
 
 Description
 -----------
-Translate any window coordinates to any viewport coordinates.
+Transform any window coordinates to any viewport coordinates.
 
 Synopsis
 --------
 ```python
-put code here
+from window.viewport import viewport
+
+tform = viewport( world_bounds=(0, 1, 0, 1), view_bounds=(9, 0, 0, 9))
+
+x, y = ( 1, 2 )
+
+x2, y2 = ( tform.Dx(x), tform.Dx(y) )
 ```
+See [readme](readme.rst) for more documentation.
 
 Installation
 ------------
