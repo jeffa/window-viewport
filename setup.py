@@ -3,7 +3,7 @@ from window.viewport import viewport
 
 setup(
     name='window-viewport',
-    version='0.0.2',
+    version='1.0.0',
     description='Just another window to viewport coordinates translator',
     author='Jeff Anderson',
     author_email='jeffa@cpan.org',

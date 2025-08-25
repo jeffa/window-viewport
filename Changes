@@ -6,3 +6,7 @@ Revision history for window-viewport
 0.0.2
     - Improved instantiation interface
     - Added docs
+
+1.0.0
+	- ready for production
+	- added examples
