@@ -6,6 +6,9 @@ class viewport:
         Wb, Wt, Wl, Wr = world_bounds
         Vb, Vt, Vl, Vr = view_bounds
 
+        self.Wb, self.Wt, self.Wl, self.Wr = (Wb, Wt, Wl, Wr);
+        self.Vb, self.Vt, self.Vl, self.Vr = (Vb, Vt, Vl, Vr);
+
         self.Sx = ( Vr - Vl ) / ( Wr - Wl )
         self.Sy = ( Vt - Vb ) / ( Wt - Wb );
         self.Tx = ( Vl * Wr - Wl * Vr ) / ( Wr - Wl );
