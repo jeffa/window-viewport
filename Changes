@@ -2,3 +2,7 @@ Revision history for window-viewport
 
 0.0.1
     - First version, released on an unsuspecting world.
+
+0.0.2
+    - Improved instantiation interface
+    - Added docs
